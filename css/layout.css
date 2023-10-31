@@ -1,0 +1,40 @@
+.rebaright{
+box-sizing: border-box;
+	-webkit-box-sizing: border-box;
+	-moz-box-sizing: border-box;    
+    float: right;
+padding: 10px;
+    border-style: dotted;
+}
+
+.rebaleft{
+    box-sizing: border-box;
+	-webkit-box-sizing: border-box;
+	-moz-box-sizing: border-box;
+    float: left;
+    max-width: auto;
+    position: relative;
+    align-items: center;
+}
+
+.albumcover{
+    box-sizing: border-box;
+    -webkit-box-sizing: border-box;
+	-moz-box-sizing: border-box;
+    float: right;
+    margin-right: auto;
+    clear: both;
+}
+
+.logo {
+    position: absolute;
+    left: 50%;
+    margin-left: -75px;
+    clear: both;
+}
+
+.topnav {
+  padding: 14px 16px;
+  font-size: 16px;
+  float: left;
+}

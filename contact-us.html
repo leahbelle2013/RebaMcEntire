@@ -1,0 +1,119 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="utf-8">
+    <title>Contact Us</title>
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
+    <link rel="icon" href="img/favicon.ico" type="image/x-icon">
+    <link rel="apple-touch-icon" href="img/favicon.ico">
+</head>
+
+<body>
+    <header>
+        <h1>Contact Us</h1>
+    </header>
+    <main>
+        <nav class="w3-bar w3">
+            <a href="index.html" class="w3-bar-item w3-button">Home</a>
+            <a href="faq.html" class="w3-bar-item w3-button">FAQs</a>
+            <a href="gallery.html" class="w3-bar-item w3-button">Gallery</a>
+            <a href="contact-us.html" class="w3-bar-item w3-button">Contact Us</a>
+        </nav>
+        <section>
+            <h2>Webform Mailer</h2>
+            <fieldset class="fieldset">
+                <legend>Input your personal information</legend>
+                <form id="mailerform" method="post" action="lbateman@student.dallascollege.edu"></form>
+                <p>
+                    <label title="Enter you name.">Your Name:<input class="w3-input w3-border w3-round"
+                            type="text"></label>
+                </p>
+                <p><label title="Enter your email address.">E-mail: <input class="w3-input w3-border w3-round"
+                            type="text"></label>
+                </p>
+                <p>
+                    <label title="phone">Your phone number:</label>
+                    <label><input type="tel" id="phone" name="phone" placeholder="(123)-456-7890"
+                            pattern="[0-9]{3}-[0-9]{3}-[0-9]{4}" autofocus required></label>
+                </p>
+                <p>
+                    <label title="May we contact you?">May we contact you? <input class="w3-check" type="checkbox"
+                            checked="checked"></label>
+                </p>
+                <p>Where did you hear about this website?
+                </p>
+                <p>
+                    <label title="School">School <input class="w3-radio" type="radio" name="gender" value="male"
+                            checked></label>
+                </p>
+                <p><label title="Somewhere else">Other <input class="w3-radio" type="radio" name="gender" value="male"
+                            checked></label></p>
+                <p>
+                    How would you rate this website?
+                </p>
+                <label title="yourrating">Your rating:
+                    <select class="w3-select" style="width: 10em;" name="option">
+                        <option value="1" selected>1 Star</option>
+                        <option value="2">2 Stars</option>
+                        <option value="3">3 Stars</option>
+                        <option value="4">4 Stars</option>
+                        <option value="5">5 Stars</option></label>
+                </select>
+                <p>
+                    <label for="message">Message</label><br>
+                    <textarea id="message" name="message"></textarea>
+                </p>
+                <button class="w3-button w3-round-medium">Submit</button>
+            </fieldset>
+        </section>
+        <section>
+            <h2>Table</h2>
+            <table class="w3-table-all w3-card-4">
+                <caption class="caption">Albums by Reba</caption>
+                <thead>
+                    <tr>
+                        <th scope="col">Album</th>
+                        <th scope="col">Year</th>
+                        <th scope="col">Record Label</th>
+                    </tr>
+                </thead>
+                <tbody>
+                    <tr>
+                        <td><q>Reba McEntire</q></td>
+                        <td>1977</td>
+                        <td>Mercury Records</td>
+                    </tr>
+                    <tr>
+                        <td><q>Just a Little Love</q></td>
+                        <td>1984</td>
+                        <td>MCA Nashville</td>
+                    </tr>
+                    <tr>
+                        <td><q>For My Broken Heart</q></td>
+                        <td>1991</td>
+                        <td>MCA Nashville</td>
+                    </tr>
+                    <tr>
+                        <td><q>Icon</q></td>
+                        <td>2014</td>
+                        <td>Mercury Records</td>
+                    </tr>
+                    <tr>
+                        <td><q>Stronger Than the Truth</q></td>
+                        <td>2019</td>
+                        <td>Big Machine Records</td>
+                    </tr>
+                </tbody>
+
+            </table>
+        </section>
+    </main>
+    <footer>
+        <p>Visit the <a href="https://www.dallascollege.edu/pages/default.aspx">Dallas College</a> website.</p>
+        <a href="mailto:lbateman@student.dallascollege.edu">E-mail the Webmaster</a>
+    </footer>
+</body>
+
+</html>
